@@ -1,0 +1,110 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.game-board {
+  display: grid;
+}
+
+#play-again-btn {
+  width: 10rem;
+  margin: 4rem 0;
+  border: 2px solid peru;
+  color: peru;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 4px;
+  visibility: hidden;
+}
+
+#play-again-btn:hover {
+  background-color: peru;
+  color: white;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+}
+
+.row {
+  text-align: center;
+}
+
+.row-1 {
+  grid-row: 1/2;
+}
+
+.row-2 {
+  grid-row: 2/3;
+}
+
+.row-3 {
+  grid-row: 3/4;
+}
+
+#cell-0 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black
+}
+
+#cell-1 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#cell-2 {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#cell-3 {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#cell-4 {
+  border: 1px solid black;
+}
+
+#cell-5 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#cell-6 {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#cell-7 {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#cell-8 {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+section div {
+  height: 10em;
+  width: 10em;
+  /* border: 2px dotted blue; */
+}
